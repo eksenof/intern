@@ -1,0 +1,10 @@
+---
+- name: run the intern module
+  my_module:
+    path: '/home/intern/file'
+    content: "test record ... some text ... "
+  register: testout
+- name: dump test output
+  debug:
+    msg: '{{ testout }}'
+# tasks file for intern

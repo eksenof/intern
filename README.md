@@ -1,5 +1,9 @@
-# internc collection
+# Ansible Collection - intern.internc
+
+Documentation for the collection.
+
 modules:
-my_modeule
+my_module
+	
 roles:
 intern
