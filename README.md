@@ -1,2 +1,5 @@
-# my_own_collection
-ansible modules
+# internc collection
+modules:
+my_modeule
+roles:
+intern
